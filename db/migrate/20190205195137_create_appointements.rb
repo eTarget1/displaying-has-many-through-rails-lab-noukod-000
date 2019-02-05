@@ -1,4 +1,4 @@
-class CreateAppointments < ActiveRecord::Migration
+class CreateAppointements < ActiveRecord::Migration
   def change
     create_table :appointments do |t|
       t.datetime :appointment_datetime
